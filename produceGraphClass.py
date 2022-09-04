@@ -1,11 +1,5 @@
 class graphs:
         def makeTable(self, data):
-# Data format to be fed to this function
-# dat=[
-# ["len","width","contents"],
-# [50,50,"mystery"],
-# [50,50,"another mystery"]
-# ]
                 title=data[0]
                 html="<table border='1'>\n"
                 html=html+"     <tr>\n"
@@ -22,7 +16,7 @@ class graphs:
 
 
 
-        def makeChart(self, varNames, varValue, barColors=["red","orange","blue","green"],chartLabel="metrics"):
+        def makeChart(self, varNames, varValue, chartLabel, barColors=["blue"]):
                 chartName=""
                 chartValues=""
                 chartColors=""
