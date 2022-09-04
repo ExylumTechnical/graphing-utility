@@ -40,5 +40,5 @@ At the bottom of the file I have included an exapmple of how the code should be 
 There are two ways to display the graphs, first is to dump the input into a .js file and call the file in your html code (see below). The second is to use these functions in conjunction with other functions or tooling in the generation of .html files.
 
 Where exampleChart is either the chartLable for a chart or the tname for a graph. The dataOutput.js is the output from the function in a file.
-<canvas id="exampleChart" style="width:100%;max-width:600px"></canvas>
-<script src="dataOutput.js"></script>
+\<canvas id="exampleChart" style="width:100%;max-width:600px"></canvas>
+\<script src="dataOutput.js"></script>
