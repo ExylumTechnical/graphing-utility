@@ -4,7 +4,7 @@ I developed some code in python so that I could easily generate graphs and chart
 # How it works
 Ill go over the use of the class functions briefly all of these functions can be found in the produceGraphClass.py file
 
-# graphs.makeTable(self,data)
+## graphs.makeTable(self,data)
 This returns an html table the data variuble should be a python list. There is basically no constraint on how many columns or rows you can have, the function will put more columns in a row even if there is not a title for that row. Likewise it will put fewer columns into a row than there are columns. That being said you will need to check the data before it is entered into this function. Still pretty useful for displaying raw data.
 
 data variuble example:
