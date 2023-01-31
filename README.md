@@ -1,6 +1,8 @@
 # graphing-utility for Chart.js
 I developed some code in python so that I could easily generate graphs and charts to be displayed in HTML, hope you enjoy and find this code usefull in your own projects.
 
+The JavaScript library I used was chart.js which can be found at: https://www.chartjs.org/
+
 ## How it works
 Ill go over the use of the class functions briefly all of these functions can be found in the produceGraphClass.py file
 
